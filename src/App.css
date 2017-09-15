@@ -1,0 +1,68 @@
+#firstBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#pilotname {
+  margin-top: 100px;
+  width: 425px;
+  font-size: 2em;
+}
+
+#welcome {
+  color: gold;
+  width: 70%;
+  text-align: center;
+  height: 800px;
+  background-image: url('./extraFlavors/wise_sage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 45px steelblue;
+  margin-bottom: -200px;
+}
+
+.goldText {
+  font-size: 2em;
+  text-shadow: 0 0 5px black;
+  text-shadow: 0 0 10px paleturquoise;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  padding-bottom: 20px;
+  width: 90%;
+  color: white;
+  font-size: 1.2em;
+  text-shadow: 0 0 5px black;
+  list-style-type: none;
+  background-image: url('./extraFlavors/spaceBalls.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 25px gold;
+  border-radius: 6px;
+}
+
+li {
+  margin-top: 20px;
+}
+
+#uniqueDivOne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#picture {
+  margin-top: 25px;
+}
+
+#picture2 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 400px;
+}
